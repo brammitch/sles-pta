@@ -1,0 +1,5 @@
+student_first_name,student_last_name,email,one_ticket,ten_ticket,twenty_ticket,total_tickets
+Ann,Jones,ann.jones@nomail.com,0,1,0,10
+Brandon,Martin,brandon.martin@nomail.com,1,1,0,11
+Charlie,Wood,charlie.wood@nomail.com,0,1,1,30
+
