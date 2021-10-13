@@ -37,6 +37,7 @@ fs.createReadStream(path.resolve(__dirname, "assets", "raffle-test.csv"))
   )
   .on("end", () => {
     data.forEach((d) => {
+      // add one entry per student for each ticket purchased
       for (let i = 1; i <= d.tickets; i++) {
         entries.push(`${d.student_name} ${d.email}`);
       }
